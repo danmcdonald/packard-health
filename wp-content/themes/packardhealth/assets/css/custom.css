@@ -1,0 +1,237 @@
+.page-template-default .sb_page_left h4 {
+	color: #ECA154;
+    margin-top: 20px;
+	margin-bottom: 20px;
+}
+.page-template-default .sb_page_left ul li, .page-template-default .sb_page_left ul li p {
+	font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+.page-template-default .sb_page_left .span-alt {
+    display: block;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #009CDE;
+    padding-top: 25px;
+    padding-bottom: 7px;
+}
+
+.page-template-default .sb_page_left li:first-child .span-alt {
+	padding-top: 10px;
+}
+
+.content .sm_card a {
+    text-decoration: none;
+}
+
+.content ul.link_tag li {
+    margin-right: 4px;
+}
+
+.content ul.link_tag li a {
+    text-transform: uppercase;
+}
+
+.content .sb_left_newstory h6 {
+    padding-right: 0; 
+    margin-bottom: auto; 
+}
+
+.content .sb_left_newstory h6:last-child {
+    padding-right: 27%;
+    margin-bottom: 53px;
+}
+
+.content .sb_left_newstory a.arrow_link {
+    margin: auto;
+}
+
+.content .widget {
+    margin-top: 60px;
+}
+
+.content .widget:first-child {
+    margin-top: auto;
+}
+
+.content .widget ul {
+    padding-left: 25px;
+}
+
+.content .widget h3.widget-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.content .widget ul {
+    padding-left: 25px;
+}
+
+.content .widget ul li {
+    margin-bottom: 15px;
+}
+
+.content .sb_page_right div[id^="archives-"] a,
+.content .sb_page_right div[id^="annual_archive_widget-"] a {
+    font-size: 24px;
+    line-height: 28px;
+    color: #009CDE;
+    font-weight: lighter;
+    display: inline-block;
+    text-decoration: none;
+    background: url(../images/arrow-sm.png) left 9px no-repeat;
+    padding-left: 19px;
+}
+
+.content .sb_page_right div[id^="tag_cloud-"] a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #231F20;
+    display: inline-block;
+    line-height: 29px;
+    border: 1px solid #c3c3c3;
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 15px;
+    margin-right: 4px;
+    margin-bottom: 16px;
+}
+
+.content .inner_page .pagination>li.next a, .content .inner_page .pagination>li.previous a {
+    font-size: 0;
+}
+
+.pagination>li:last-child>a,
+.pagination>li:last-child>span,
+.pagination>li:first-child>a,
+.pagination>li:first-child>span {
+    border-radius: 50%;
+}
+
+.content .provider_row .sm_card img {
+    height: 307px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 37px;
+    font-weight: normal;
+    color: #A7A4E0;
+    font-family: 'Georgia';
+    padding-top: 30px;
+}
+
+.content .inner_page h1 {
+    padding: 20px 0 35px 20px;
+}
+
+.content .sb_page h1 {
+    padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 100%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 80%;
+    margin: 15% auto; /* 15% from the top and centered */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Modal Header */
+.modal-header {
+    background-color: #a8ad00;
+    color: white;
+}
+
+.modal-header h2 {
+    font-size: 30px;
+    padding-top: 0;
+    color: inherit;
+}
+
+/* The Close Button */
+.modal .close-btn {
+    position: absolute;
+    right: 10px;
+    margin-top: -5px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal .close-btn:hover,
+.modal .close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content .provider_row .sm_card a:hover {
+    text-decoration: underline;
+}
+
+.modal-body #bio-modal-image {
+    display: inline;
+    float: left;
+    margin-right: 15px;
+}
+
+.modal-body p {
+    padding-left: 231px;
+}
+
+@media screen and (max-width: 900px) {
+    .modal-body #bio-modal-image {
+        display: block;
+        float: none;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .modal-body p {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+.footer .footer_top_row .loc_col ul li:nth-child(even) p a {
+    font-size: 24px;
+    font-weight: normal;
+    color: #ffffff;
+}
